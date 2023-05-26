@@ -1,0 +1,36 @@
+1- você pode criar um usuario usando esse end point:
+
+localhost:3000/users
+
+nele você deverá colocar name, uma string de no maximo 70 caracteres, um email de no maximo 50 caracteres,
+um phone um numero de 13 digitos exemplo: 55999205060, e você poderá colocar ou não se é admin, por padrão
+ele é false.
+exemplo de requisição:
+
+{
+	"name": "Thales Rodrigues2",
+	"email": "thales2@mail.com",
+	"password": "senha123",
+	"phone": "5599120304052"
+}
+
+
+2- você pode fazer login usando seu email e senha de usuario no end point localhost:3000/login
+
+exemplo de requisição:
+
+{
+	"email": "thales2@mail.com",
+	"password": "senha123"
+}
+
+3- quando estiver logado poderá registrar um contato, ele usará name, email e phone nas mesmas regras
+do usuario com o end point de localhost:3000/contact
+
+exemplo de requisição: 
+
+{
+	"name": "Rodrigo Rodrigues",
+	"email": "rodrigo@mail.com",
+	"phone": "5599120304055"
+}
