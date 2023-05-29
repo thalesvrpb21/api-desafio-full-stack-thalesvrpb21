@@ -1,6 +1,6 @@
 1- você pode criar um usuario usando esse end point:
 
-localhost:3000/users
+localhost:3000/users 
 
 nele você deverá colocar name, uma string de no maximo 70 caracteres, um email de no maximo 50 caracteres,
 um phone um numero de 13 digitos exemplo: 55999205060, e você poderá colocar ou não se é admin, por padrão
@@ -34,3 +34,9 @@ exemplo de requisição:
 	"email": "rodrigo@mail.com",
 	"phone": "5599120304055"
 }
+
+para fazer os testes usando a api com o deploy: 
+
+https://api-desafio-full-stack-deploy.onrender.com/users
+https://api-desafio-full-stack-deploy.onrender.com/login
+https://api-desafio-full-stack-deploy.onrender.com/contact
